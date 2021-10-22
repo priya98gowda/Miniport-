@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#head{
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+#head li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#head li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+#block1{
+    width: 20%;
+}
+
+#img1{
+    border-radius: 50%;
+    height: 250px;
+    margin: 30px ;
+    padding: 20px;
+}
+
+#block2{
+    width: 80%;
+    float: right;
+    text-align: center;
+    margin: -334px 88px;
+    padding: 26px;
+}
+#main{
+    background-color: #fff;
+    height: 472px;
+}
+
+h2{
+    font-size: 60px;
+    font-family: system-ui;
+    padding: 10px;
+}
+
+pre{
+    padding: 30px;
+    margin: -4px;
+    font-size: 23px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    width: 242px;
+    height: 54px;
+    font-size: 20px;
+}
+
+
+#main1{
+    background-color: #fafafa;
+    text-shadow: 12px 1px 0px #fff;
+    background-image: url('../Images/bg.png');
+    height: 800px;
+}
+
+h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+#p{
+    text-align: center;
+    font-size: 25px
+}
+
+#blk2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    /* background-color: white; */
+    padding-left: 42px;
+}
+
+#main2{
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin: 42px auto;
+    /* border: 1px solid black; */
+}
+
+
+.icon featured{
+    width: 100%;
+}
+
+.logo {
+    height: 70px;
+    /* align-content: center; */
+    /* padding-left: 80px; */
+    margin: 0px 20px;
+    padding: 17px;
+    text-align: center;
+    color: #EA8A95;
+    font-size: 62px;
+  }
+  #b {
+    border-color: blue;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  h4{
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 12px;
+
+  }
+  
+  p{
+    text-align: center;
+    font-size: 16px;
+    margin: 15px;
+
+  }
+
+  #btn{
+    background-color: blue;
+    color: white;
+    width: 357px;
+    height: 60px;
+    font-size: 28px;
+    margin: 10px 484px;
+    text-align: center;
+  }
+
+  #p1{
+    margin: 5px auto;
+    padding: 10px;
+    height: 20px;
+    font-size: 25px;
+  }
+
+  #main2 div{
+      background-color: white;
+      padding: 20px;
+  }
+
+  #main3{
+    background-color: #f4f4f4;
+    text-shadow: 1px 1px 0px #fff;
+    background-image: url('../Images/bg.png');
+    height: 1200px;
+  }
+
+  #main4{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 42px auto;
+  }
+
+  
+  #main4 div{
+    background-color: white;
+    /* padding: 20px; */
+    /* height: 100px; */
+    margin: 10px;
+    /* height: 100px; */
+}
+
+
+img{
+    /* width: 100%; */
+    height: 254px;
+}
+
+#blk3{
+    
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        /* border: 1px solid black; */
+        margin: 10px;
+        /* background-color: white; */
+        padding-left: 67px;
+    
+}
+
+#blk5{
+    text-align: center;
+    margin: 0px 246px;
+    /* color: white; */
+    /* border: 1px solid black; */
+    padding: 15px;
+    height: 350px;
+}
+
+#main5{
+    background-color: #303030;
+    color: #999;
+    height: 1000px;
+    text-shadow: -1px -1px 0px #181818;
+    background-image: url('../Images/bg.png');
+}
+
+#p2{
+    font-family: sans-serif;
+    color: #999999;
+    font-size: 25px;
+}
+
+#blk4{
+  color: white;
+}
+
+#blk4 > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+#header input{
+    background-color: #282828;
+    width: 374px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 18px
+}
+
+form{
+    padding: 10px;
+    height: 530px;
+}
+
+#second input{
+    background-color: #282828;
+    margin: 17px;
+    width: 742px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#third textarea{
+    background-color: #282828;
+    width: 750px;
+    height: 250px;
+    border-radius: 13px;
+    padding: 10px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#footer{
+    list-style: none;
+}
+
+#first{
+    display: inline-block;
+    margin: 7px 83px;
+    float: left;
+}
+
+#first input{
+    background-color: dodgerblue;
+    width: 245px;
+    color: white;
+    font-size: 28px;
+    height: 49px;
+    border-radius: 5px;
+}
+
+#last{
+    display: inline-block;
+    margin: -57px 103px;
+    float: right;
+}
+
+#last input{
+    background-color: black;
+    width: 245px;
+    color: white;
+    font-size: 28px;
+    height: 49px;
+    border-radius: 5px;
+}
+
+#icons{
+    list-style: none;
+    display: inline-flex;
+    width: 600px;
+    padding: 30px;
+}
+
+h3{
+    margin: 17px;
+    font-size: 34px;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+#icons li a span{
+    color: #282828;
+    font-size: 60px;
+    /* border-block-color: red; */
+    padding: 10px;
+}
+
+#icons li a:hover{
+    transition: top .2s ease-in-out;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    top: 0;
+    /* display: block; */
+    /* position: relative; */
+}
+
+.h1:hover{
+    color: #2DAAE4;
+}
+
+.h2:hover{
+    color: #3C5A98;
+}
+
+.h3:hover{
+    color: #C4376B;
+}
+
+.h4:hover{
+    color: #006599;
+}
+
+.h5:hover{
+    color: #51718A;
+}
+
+.h6:hover{
+    color: #DA2713;
+}
+
+.h7:hover{
+    color: #FAFAFA;
+}
+
+hr{
+    border: 0;
+    border-top: solid 1px #444;
+    border-top-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 1px 2px 0px;
+}
+
+#end{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    width: 700px;
+    color: #666666;
+}
+
+#end li p{
+    margin: 10px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+#design{
+    
+    margin: 11px 40px;
+    font-size: 14px;
+    padding: 6px;
+}
+
+#design a{
+    color: #666666;
+}
+
+#demo{
+    
+    margin: 11px 40px;
+    font-size: 14px;
+    padding: 6px;
+}
+
+#demo a{
+    color: #666666;
+}
